@@ -120,9 +120,7 @@
         <div class="container">
             <h1 class="sub-tittle">My Gallery</h1>
             <div class="swiper">
-                <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
-                    <!-- Slides -->
                     <div class="swiper-slide" style="background-image: url(Img/gallery-1.jpg);"></div>
                     <div class="swiper-slide" style="background-image: url(Img/gallery-2.jpg);"></div>
                     <div class="swiper-slide" style="background-image: url(Img/gallery-3.jpg);"></div>
@@ -133,16 +131,10 @@
                     <div class="swiper-slide" style="background-image: url(Img/gallery-8.jpg);"></div>
                     <div class="swiper-slide" style="background-image: url(Img/gallery-9.jpg);"></div>
                     <div class="swiper-slide" style="background-image: url(Img/gallery-10.jpg);"></div>
-                    ...
                 </div>
-                <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>
-
-                <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
-
-                <!-- If we need scrollbar -->
                 <div class="swiper-scrollbar"></div>
             </div>
         </div>
@@ -182,9 +174,8 @@
         </div>
     </div>
 
+    <!-- Tab -->
     <script>
-
-        // Tab
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
 
@@ -201,8 +192,8 @@
 
     </script>
 
+    <!-- Menu -->
     <script>
-        // Menu
         var sidemeu = document.getElementById("sidemenu");
 
         function openmenu() {
@@ -214,7 +205,7 @@
 
     </script>
 
-    // Gallery
+    <!-- Gallery -->
     <script src="https://unpkg.com/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper(".swiper", {
@@ -241,8 +232,8 @@
     </script>
 
 
+    <!-- Contact Form -->
     <script>
-        // Contact Form
         const scriptURL =
             "https://script.google.com/macros/s/AKfycbzEeDJhAZTYNQzsIKK3o3mSjv4AygNML5V6noUKNz8tNLLhl-vF7CImJ3OZxoJE6mrJHA/exec";
         const form = document.forms["submit-to-google-sheet"];
