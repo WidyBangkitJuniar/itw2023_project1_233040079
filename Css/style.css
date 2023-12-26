@@ -343,11 +343,11 @@ form .btn2 {
   margin-top: 20px;
 }
 
-/* Rseponsive */
 nav .fa-solid {
   display: none;
 }
 
+/* Rseponsive */
 @media only screen and (max-width: 600px) {
   #header {
     background-image: url(../Img/bg-phone.jpg);
